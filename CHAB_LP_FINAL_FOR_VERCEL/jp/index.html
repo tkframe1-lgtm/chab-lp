@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html class="dark" lang="ja"><head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="/assets/chab.css"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CHAB! - Digital Marketing and Operations Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Noto+Sans+JP:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style >
+        :root {
+            --bg-zone-a-start: #244BC0;
+            --bg-zone-a-end: #1D3FA3;
+            --bg-zone-b-start: #1D3FA3;
+            --bg-zone-b-end: #163084;
+            --bg-zone-c-start: #0F245A;
+            --bg-zone-c-end: #0B1226;
+            --card-bg: rgba(255, 255, 255, 0.06);
+            --card-border: rgba(255, 255, 255, 0.12);
+            --text-heading: #FFFFFF;
+            --text-body: #F2F5FF;
+            --text-muted: #B9C6EA;
+            --accent-yellow: #F4B54A;
+        }
+        body {
+            font-family: 'Manrope', 'Noto Sans JP', sans-serif;
+            background-color: var(--bg-zone-c-end);
+            color: var(--text-body);
+            margin: 0;
+        }
+        .zone-a { background: linear-gradient(to bottom, var(--bg-zone-a-start), var(--bg-zone-a-end)); position: relative; }
+        .zone-b { background: linear-gradient(to bottom, var(--bg-zone-b-start), var(--bg-zone-b-end)); position: relative; }
+        .zone-c { background: linear-gradient(to bottom, var(--bg-zone-c-start), var(--bg-zone-c-end)); position: relative; }
+        .chab-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            backdrop-filter: blur(12px);
+        }
+        .heading-white {
+            color: var(--text-heading);
+        }
+        .text-near-white {
+            color: var(--text-body);
+        }
+        .text-muted-blue {
+            color: var(--text-muted);
+        }
+        .btn-primary {
+            background-color: var(--accent-yellow);
+            color: #0B1226;
+        }
+        .btn-secondary {
+            background-color: transparent;
+            border: 1px solid #FFFFFF;
+            color: #FFFFFF;
+        }
+        .accent-bang {
+            color: var(--accent-yellow);
+        }
+        .section-title-border {
+            border-left: 4px solid var(--accent-yellow);
+        }
+        .bg-decorative-text {
+            position: absolute;
+            font-weight: 800;
+            color: rgba(255, 255, 255, 0.03);
+            pointer-events: none;
+            user-select: none;
+            white-space: nowrap;
+            line-height: 1;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<header class="fixed top-0 z-50 w-full border-b border-[var(--card-border)] bg-[#244BC0]/90 backdrop-blur-md">
+<div class="mx-auto flex h-16 max-w-[980px] items-center justify-between px-6">
+<div class="flex items-center">
+<h1 class="text-xl font-bold tracking-tight heading-white">CHAB<span class="accent-bang">!</span></h1>
+</div>
+<div class="flex items-center gap-6">
+<nav class="hidden sm:flex text-xs font-bold tracking-widest text-muted-blue gap-3">
+<a href="/en/" class="hover:text-white transition-colors">EN</a>
+<span class="opacity-20 text-white">/</span>
+<span class="heading-white cursor-default">JP</span>
+<span class="opacity-20 text-white">/</span>
+<a href="/km/" class="hover:text-white transition-colors">KM</a>
+</nav>
+<a class="flex items-center justify-center rounded-lg bg-[var(--card-bg)] border border-[var(--card-border)] p-2 heading-white hover:bg-white/10 transition-colors" href="https://t.me/chabcambodia" target="_blank" rel="noopener" aria-label="Contact">
+<span class="material-symbols-outlined text-[20px]">send</span>
+</a>
+</div>
+</div>
+</header>
+<div class="zone-a pt-32 pb-16 overflow-hidden">
+<div class="bg-decorative-text text-[30vw] top-10 -left-20">CHAB!</div>
+<div class="bg-decorative-text text-[20vw] bottom-20 -right-20 opacity-40">CHAB!</div>
+<main class="relative z-10 w-full max-w-[980px] mx-auto px-6 flex flex-col gap-28">
+<section class="flex flex-col gap-10">
+<div class="space-y-8 max-w-4xl">
+<div>
+<h2 class="text-6xl sm:text-7xl lg:text-8xl font-black leading-none tracking-tighter heading-white">
+                            CHAB<span class="accent-bang">!</span>
+</h2>
+<div class="inline-flex items-center rounded-full border border-[var(--accent-yellow)] bg-white/5 px-4 py-1.5 text-xs font-bold tracking-widest uppercase text-[var(--accent-yellow)] mt-6">
+                            Digital Marketing and Operations Studio
+                        </div>
+</div>
+<h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight heading-white">
+<span class="block mb-2">カンボジアで回る仕組みを設計する。</span>
+    止まりやすい集客と運用を、止まらない形に整える。
+</h3>
+<p class="text-lg text-near-white leading-relaxed opacity-90 max-w-3xl">カンボジアで事業を動かすための、デジタル集客と運用の仕組みを設計します。<br/>広告、SNS、追客、現場運用まで分断せずに整えます。<br/>属人化しにくい形に落とし、少人数でも回る状態を作ります。
+                    </p>
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="inline-flex items-center rounded-md bg-white/5 border border-[var(--card-border)] px-3 py-1 text-xs font-medium text-muted-blue">
+                            カンボジア企業
+                        </span>
+<span class="inline-flex items-center rounded-md bg-white/5 border border-[var(--card-border)] px-3 py-1 text-xs font-medium text-muted-blue">
+                            カンボジアで事業を行う外資 日系企業
+                        </span>
+<span class="inline-flex items-center rounded-md bg-white/5 border border-[var(--card-border)] px-3 py-1 text-xs font-medium text-muted-blue">
+                            カンボジア進出を検討している企業・個人
+                        </span>
+</div>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<button class="btn-primary inline-flex h-14 items-center justify-center gap-2 rounded-xl px-10 text-base font-bold transition-all hover:brightness-110 hover:scale-[1.02]">
+<span class="material-symbols-outlined">send</span>
+                            Telegramで相談する
+                        </button>
+<button class="btn-secondary inline-flex h-14 items-center justify-center gap-2 rounded-xl px-10 text-base font-bold transition-all hover:bg-white/10">
+                            まずは診断を受けたい
+                        </button>
+</div>
+</div>
+<div class="relative w-full aspect-[21/9] rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/10 mt-4">
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent z-10"></div>
+<img alt="Staff explaining to a client in a modern property showroom in Phnom Penh" class="h-full w-full object-cover" style="object-position: center 15%;" src="/hero.jpg"/>
+<div class="absolute bottom-6 left-6 z-20">
+<p class="text-xs font-bold text-white uppercase tracking-[0.3em] opacity-80">Phnom Penh, Cambodia</p>
+</div>
+</div>
+</section>
+<section class="space-y-10">
+<div class="section-title-border pl-6">
+<h2 class="text-3xl font-bold heading-white">よくある詰まり（課題）</h2>
+<p class="mt-2 text-muted-blue">以下のような状況がある場合、仕組みの整備で改善できることが多いです。</p>
+</div>
+<div class="grid gap-6 md:grid-cols-3">
+<div class="chab-card rounded-2xl p-8 transition-all hover:border-white/30">
+<div class="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-white/10 text-white">
+<span class="material-symbols-outlined text-3xl">campaign</span>
+</div>
+<h3 class="mb-4 text-xl font-bold heading-white">SNSや広告を継続運用できる体制がなく、発信が止まりやすい</h3>
+<p class="text-sm leading-relaxed text-muted-blue">担当者のリソース不足やルールの未整備により、情報発信が不安定になりがちです。</p>
+</div>
+<div class="chab-card rounded-2xl p-8 transition-all hover:border-white/30">
+<div class="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-white/10 text-white">
+<span class="material-symbols-outlined text-3xl">link_off</span>
+</div>
+<h3 class="mb-4 text-xl font-bold heading-white">集客の導線が弱く、問い合わせや来訪につながりにくい</h3>
+<p class="text-sm leading-relaxed text-muted-blue">認知はされていても、最終的な成約や来店まで導く設計が不足しています。</p>
+</div>
+<div class="chab-card rounded-2xl p-8 transition-all hover:border-white/30">
+<div class="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-white/10 text-white">
+<span class="material-symbols-outlined text-3xl">person_off</span>
+</div>
+<h3 class="mb-4 text-xl font-bold heading-white">追客や運用ルールが固定されず、成果が担当者に依存する</h3>
+<p class="text-sm leading-relaxed text-muted-blue">個人のスキル頼みになっており、チームとしての再現性や安定性が欠けています。</p>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="zone-b py-24 overflow-hidden">
+<div class="bg-decorative-text text-[40vw] -top-32 -left-40">CHAB!</div>
+<div class="bg-decorative-text text-[25vw] bottom-0 -right-20">CHAB!</div>
+<main class="relative z-10 w-full max-w-[980px] mx-auto px-6 flex flex-col gap-28">
+<section class="rounded-3xl chab-card p-10 md:p-14 shadow-2xl relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-white/5 blur-[100px] -mr-32 -mt-32"></div>
+<div class="relative z-10">
+<div class="mb-10 section-title-border pl-6">
+<h2 class="text-3xl font-bold heading-white">入口パッケージ（最初の一歩）</h2>
+<p class="mt-2 text-muted-blue">まずは現状の課題整理から始めます。</p>
+</div>
+<div class="flex flex-col gap-12 md:flex-row md:items-stretch">
+<div class="flex-1 space-y-6">
+<div class="flex items-center gap-4">
+<span class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#163084] font-black text-lg">1</span>
+<h3 class="text-2xl font-bold heading-white">初回診断</h3>
+</div>
+<p class="text-near-white text-lg">Telegramで60分。現状を見て、問題と次の2週間で何をやるべきかを整理します。</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+<div class="flex items-start gap-3 text-sm text-near-white">
+<span class="material-symbols-outlined text-white text-[20px]">check_circle</span>
+                                    現状アカウント確認・分析
+                                </div>
+<div class="flex items-start gap-3 text-sm text-near-white">
+<span class="material-symbols-outlined text-white text-[20px]">check_circle</span>
+                                    改善点の優先順位付け
+                                </div>
+<div class="flex items-start gap-3 text-sm text-near-white">
+<span class="material-symbols-outlined text-white text-[20px]">check_circle</span>
+                                    次の2週間の具体アクション
+                                </div>
+<div class="flex items-start gap-3 text-sm text-near-white">
+<span class="material-symbols-outlined text-white text-[20px]">check_circle</span>
+                                    要点メモと簡易レポート提出
+                                </div>
+</div>
+</div>
+<div class="md:w-px md:bg-white/10"></div>
+<div class="flex w-full flex-col justify-center rounded-2xl bg-white/5 border border-white/10 p-8 md:w-80 text-center">
+<p class="text-sm font-bold tracking-widest text-muted-blue uppercase">Package Price</p>
+<p class="my-4 text-5xl font-black heading-white"><span class="text-[var(--accent-yellow)]">49</span> <span class="text-lg font-bold text-muted-blue">USD</span></p>
+<button class="mt-4 w-full rounded-xl btn-primary py-4 font-bold transition-all hover:scale-[1.05] shadow-lg shadow-black/20">
+                                今すぐ申し込む
+                            </button>
+<p class="mt-4 text-xs text-muted-blue">※診断後の無理な営業は一切ありません</p>
+</div>
+</div>
+</div>
+</section>
+<section class="space-y-10">
+<div class="section-title-border pl-6">
+<h2 class="text-3xl font-bold heading-white">サービスメニュー（フェーズ別）</h2>
+<p class="mt-2 text-muted-blue">事業の状況により、どのフェーズからでも着手できます。</p>
+</div>
+<div class="grid gap-6">
+<div class="chab-card group flex flex-col gap-8 overflow-hidden rounded-2xl p-8 transition-all hover:border-white/30 md:flex-row">
+<div class="flex flex-col justify-between md:w-1/3">
+<div>
+<span class="text-xs font-bold uppercase tracking-widest text-muted-blue">Phase 01</span>
+<h3 class="mt-2 text-2xl font-bold heading-white">運用と教育の土台づくり</h3>
+</div>
+<div class="mt-6 h-1 w-12 bg-white/10 group-hover:bg-white group-hover:w-20 transition-all duration-500"></div>
+</div>
+<div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-8">
+<div>
+<h4 class="mb-3 text-xs font-bold uppercase tracking-widest text-muted-blue">Solving</h4>
+<p class="text-base text-near-white font-medium">属人化を減らし、チームで回る状態を作る</p>
+</div>
+<div>
+<h4 class="mb-3 text-xs font-bold uppercase tracking-widest text-muted-blue">Deliverables</h4>
+<p class="text-base text-near-white font-medium">研修設計、運用ルール、SOP、追客テンプレ、KPI管理</p>
+</div>
+</div>
+</div>
+<div class="chab-card group flex flex-col gap-8 overflow-hidden rounded-2xl p-8 transition-all hover:border-white/30 md:flex-row">
+<div class="flex flex-col justify-between md:w-1/3">
+<div>
+<span class="text-xs font-bold uppercase tracking-widest text-muted-blue">Phase 02</span>
+<h3 class="mt-2 text-2xl font-bold heading-white">集客と発信の設計</h3>
+</div>
+<div class="mt-6 h-1 w-12 bg-white/10 group-hover:bg-white group-hover:w-20 transition-all duration-500"></div>
+</div>
+<div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-8">
+<div>
+<h4 class="mb-3 text-xs font-bold uppercase tracking-widest text-muted-blue">Solving</h4>
+<p class="text-base text-near-white font-medium">広告とSNSの運用を止めずに回し、反応を増やす</p>
+</div>
+<div>
+<h4 class="mb-3 text-xs font-bold uppercase tracking-widest text-muted-blue">Deliverables</h4>
+<p class="text-base text-near-white font-medium">広告運用、SNS戦略、投稿設計（企画とカレンダー）</p>
+</div>
+</div>
+</div>
+<div class="chab-card group flex flex-col gap-8 overflow-hidden rounded-2xl p-8 transition-all hover:border-white/30 md:flex-row">
+<div class="flex flex-col justify-between md:w-1/3">
+<div>
+<span class="text-xs font-bold uppercase tracking-widest text-muted-blue">Phase 03</span>
+<h3 class="mt-2 text-2xl font-bold heading-white">改善と拡大</h3>
+</div>
+<div class="mt-6 h-1 w-12 bg-white/10 group-hover:bg-white group-hover:w-20 transition-all duration-500"></div>
+</div>
+<div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-8">
+<div>
+<h4 class="mb-3 text-xs font-bold uppercase tracking-widest text-muted-blue">Solving</h4>
+<p class="text-base text-near-white font-medium">運用を改善しながら、組織と売上を伸ばす</p>
+</div>
+<div>
+<h4 class="mb-3 text-xs font-bold uppercase tracking-widest text-muted-blue">Deliverables</h4>
+<p class="text-base text-near-white font-medium">CRM運用設計、雇用契約書の雛形、レギュレーション、ピッチ資料</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+<div class="zone-c py-24 overflow-hidden">
+<div class="bg-decorative-text text-[35vw] top-1/2 -translate-y-1/2 -right-32">CHAB!</div>
+<main class="relative z-10 w-full max-w-[980px] mx-auto px-6 flex flex-col gap-28">
+<section class="space-y-10">
+<div class="section-title-border pl-6">
+<h2 class="text-3xl font-bold heading-white">進め方（4ステップ）</h2>
+</div>
+<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+<div class="relative chab-card flex overflow-hidden rounded-2xl p-8 min-h-[180px]">
+<div class="flex-1 flex flex-col text-left">
+<span class="mb-4 flex h-8 w-8 items-center justify-center rounded-lg bg-white text-[#0F245A] font-black shadow-xl text-sm">1</span>
+<h3 class="font-bold heading-white text-xl mb-3">現状確認</h3>
+<p class="text-sm leading-relaxed text-muted-blue pr-16">ヒアリングで、現状の運用、問い合わせ対応、追客、管理の方法を確認します。</p>
+</div>
+<div class="absolute -top-4 -right-4 text-white/10 pointer-events-none">
+<span class="material-symbols-outlined text-[120px]">search</span>
+</div>
+</div>
+<div class="relative chab-card flex overflow-hidden rounded-2xl p-8 min-h-[180px]">
+<div class="flex-1 flex flex-col text-left">
+<span class="mb-4 flex h-8 w-8 items-center justify-center rounded-lg bg-white text-[#0F245A] font-black shadow-xl text-sm">2</span>
+<h3 class="font-bold heading-white text-xl mb-3">設計</h3>
+<p class="text-sm leading-relaxed text-muted-blue pr-16">改善の優先順位を決め、運用ルールと成果物の形を設計します。</p>
+</div>
+<div class="absolute -top-4 -right-4 text-white/10 pointer-events-none">
+<span class="material-symbols-outlined text-[120px]">explore</span>
+</div>
+</div>
+<div class="relative chab-card flex overflow-hidden rounded-2xl p-8 min-h-[180px]">
+<div class="flex-1 flex flex-col text-left">
+<span class="mb-4 flex h-8 w-8 items-center justify-center rounded-lg bg-white text-[#0F245A] font-black shadow-xl text-sm">3</span>
+<h3 class="font-bold heading-white text-xl mb-3">セットアップ</h3>
+<p class="text-sm leading-relaxed text-muted-blue pr-16">必要なシート、管理項目、テンプレ、運用ルールを作成し、使える状態にします。</p>
+</div>
+<div class="absolute -top-4 -right-4 text-white/10 pointer-events-none">
+<span class="material-symbols-outlined text-[120px]">settings</span>
+</div>
+</div>
+<div class="relative chab-card flex overflow-hidden rounded-2xl p-8 min-h-[180px]">
+<div class="flex-1 flex flex-col text-left">
+<span class="mb-4 flex h-8 w-8 items-center justify-center rounded-lg bg-white text-[#0F245A] font-black shadow-xl text-sm">4</span>
+<h3 class="font-bold heading-white text-xl mb-3">定着</h3>
+<p class="text-sm leading-relaxed text-muted-blue pr-16">運用を回しながら改善し、チームで継続できる形に整えます。</p>
+</div>
+<div class="absolute -top-4 -right-4 text-white/10 pointer-events-none">
+<span class="material-symbols-outlined text-[120px]">published_with_changes</span>
+</div>
+</div>
+</div>
+</section>
+<section class="space-y-10">
+<div class="section-title-border pl-6">
+<h2 class="text-3xl font-bold heading-white">提供できること</h2>
+<p class="mt-2 text-muted-blue">具体的な成果物を納品し、実行体制を支えます。</p>
+</div>
+<div class="grid grid-cols-2 gap-4 md:grid-cols-3">
+<div class="flex items-center gap-4 rounded-xl chab-card p-5 hover:border-white/40 transition-all cursor-default group">
+<span class="material-symbols-outlined text-white opacity-40 group-hover:opacity-100">public</span>
+<span class="text-sm font-bold text-near-white">Meta Ads Setup</span>
+</div>
+<div class="flex items-center gap-4 rounded-xl chab-card p-5 hover:border-white/40 transition-all cursor-default group">
+<span class="material-symbols-outlined text-white opacity-40 group-hover:opacity-100">music_note</span>
+<span class="text-sm font-bold text-near-white">TikTok Operation</span>
+</div>
+<div class="flex items-center gap-4 rounded-xl chab-card p-5 hover:border-white/40 transition-all cursor-default group">
+<span class="material-symbols-outlined text-white opacity-40 group-hover:opacity-100">search</span>
+<span class="text-sm font-bold text-near-white">Google Ads</span>
+</div>
+<div class="flex items-center gap-4 rounded-xl chab-card p-5 hover:border-white/40 transition-all cursor-default group">
+<span class="material-symbols-outlined text-white opacity-40 group-hover:opacity-100">campaign</span>
+<span class="text-sm font-bold text-near-white">SNS Strategy</span>
+</div>
+<div class="flex items-center gap-4 rounded-xl chab-card p-5 hover:border-white/40 transition-all cursor-default group">
+<span class="material-symbols-outlined text-white opacity-40 group-hover:opacity-100">chat</span>
+<span class="text-sm font-bold text-near-white">CRM Templates</span>
+</div>
+<div class="flex items-center gap-4 rounded-xl chab-card p-5 hover:border-white/40 transition-all cursor-default group">
+<span class="material-symbols-outlined text-white opacity-40 group-hover:opacity-100">menu_book</span>
+<span class="text-sm font-bold text-near-white">SOPs (Manuals)</span>
+</div>
+<div class="flex items-center gap-4 rounded-xl chab-card p-5 hover:border-white/40 transition-all cursor-default group">
+<span class="material-symbols-outlined text-white opacity-40 group-hover:opacity-100">school</span>
+<span class="text-sm font-bold text-near-white">Staff Training</span>
+</div>
+<div class="flex items-center gap-4 rounded-xl chab-card p-5 hover:border-white/40 transition-all cursor-default group">
+<span class="material-symbols-outlined text-white opacity-40 group-hover:opacity-100">description</span>
+<span class="text-sm font-bold text-near-white">Contracts</span>
+</div>
+<div class="flex items-center gap-4 rounded-xl chab-card p-5 hover:border-white/40 transition-all cursor-default group">
+<span class="material-symbols-outlined text-white opacity-40 group-hover:opacity-100">co_present</span>
+<span class="text-sm font-bold text-near-white">Pitch Decks</span>
+</div>
+</div>
+</section>
+<section class="space-y-10">
+<div class="section-title-border pl-6">
+<h2 class="text-3xl font-bold heading-white">私たちについて</h2>
+</div>
+<div class="grid gap-8 md:grid-cols-2">
+<div class="flex flex-col gap-6 rounded-3xl chab-card p-8">
+<div class="flex items-center gap-5">
+<div class="h-20 w-20 flex items-center justify-center rounded-full bg-black/40 border border-white/20 overflow-hidden">
+<span class="material-symbols-outlined text-[48px] text-[var(--text-muted)]">account_circle</span>
+</div>
+<div>
+<h3 class="text-2xl font-bold heading-white">Takada Klaus</h3>
+<p class="text-xs text-white font-bold tracking-[0.2em] uppercase opacity-60">Operations Director</p>
+</div>
+</div>
+<p class="text-base leading-relaxed text-muted-blue">
+                            カンボジアで10年、複数の事業で集客と運用の仕組みづくりを担当。自社運営では最大4店舗まで拡大し、広告と導線と現場運用を同時に整える形で、立ち上げ初期から収益が崩れにくい状態を作ってきました。フランチャイズ運営、事業売却の経験もあり。<br class="my-4 block"/>
+                            不動産開発プロジェクトにおいて、初期販売200ユニット中171ユニットのLOI獲得に向けて、回収フロー、イベント運営、ハウスツアー運用を整備。
+                        </p>
+</div>
+<div class="flex flex-col justify-center rounded-3xl chab-card p-8">
+<h3 class="mb-6 font-bold text-[var(--accent-yellow)] text-xl flex items-center gap-3">
+<span class="material-symbols-outlined">verified_user</span>サービスの特徴
+                        </h3>
+<ul class="space-y-5 text-base text-near-white">
+<li class="flex gap-4">
+<span class="block h-2 w-2 mt-2 rounded-full bg-white shrink-0"></span>
+<span>広告だけで終わらせず、追客と運用まで整えます。</span>
+</li>
+<li class="flex gap-4">
+<span class="block h-2 w-2 mt-2 rounded-full bg-white shrink-0"></span>
+<span>属人化しにくい形に落とし、少人数で回る状態を作ります。</span>
+</li>
+<li class="flex gap-4">
+<span class="block h-2 w-2 mt-2 rounded-full bg-white shrink-0"></span>
+<span>Telegram中心で、意思決定と改善を早く回します。</span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="flex flex-col items-center justify-center space-y-10 rounded-3xl chab-card p-12 md:p-20 text-center relative overflow-hidden" id="contact">
+<div class="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
+<div class="space-y-4 relative z-10">
+<h2 class="text-4xl font-black heading-white">ご相談はこちら</h2>
+<p class="text-lg text-muted-blue">Telegram からお問い合わせください。</p>
+</div>
+<div class="flex flex-col items-center gap-8 w-full max-w-md relative z-10">
+<a class="flex w-full items-center justify-center gap-3 rounded-2xl bg-[#2AABEE] px-8 py-5 text-white font-bold text-xl transition-all hover:scale-105 shadow-2xl shadow-blue-500/30" href="https://t.me/chabcambodia" target="_blank" rel="noopener">
+<span class="material-symbols-outlined text-[28px]">send</span>
+Telegram: @chabcambodia
+</a>
+<div class="w-full rounded-2xl bg-black/40 border border-white/10 p-6 text-left">
+<p class="mb-4 text-xs font-bold uppercase tracking-widest text-muted-blue">送信テンプレート</p>
+<code class="block select-all rounded-lg bg-black/40 p-5 text-sm text-near-white font-mono leading-relaxed border border-white/5">
+お名前：<br/>
+会社名：<br/>
+業種：<br/>
+役職：<br/>
+改善したいこと：<br/>
+現在の状況：<br/>
+参考URL：
+</code>
+</div>
+</div>
+</section>
+</main>
+</div>
+<footer class="border-t border-[var(--card-border)] bg-[var(--bg-zone-c-end)] py-16 text-center overflow-hidden relative">
+<div class="bg-decorative-text text-[15vw] bottom-0 left-0 opacity-20">CHAB!</div>
+<div class="mx-auto max-w-[980px] px-6 flex flex-col items-center gap-8 relative z-10">
+<div class="flex items-center">
+<span class="text-xl font-bold heading-white tracking-tight">CHAB<span class="accent-bang">!</span></span>
+</div>
+<div class="flex gap-8 text-xs font-bold tracking-[0.2em] uppercase text-muted-blue">
+<a class="hover:text-white transition-colors" href="/jp/privacy/">Privacy</a>
+<a class="hover:text-white transition-colors" href="/jp/terms/">Terms</a>
+<a class="hover:text-white transition-colors" href="https://t.me/chabcambodia" target="_blank" rel="noopener">Contact</a>
+</div>
+<div class="space-y-2">
+<p class="text-sm text-muted-blue font-medium">Cambodia nationwide. Online first.</p>
+<p class="text-[10px] uppercase tracking-widest opacity-30 text-white">© 2023 CHAB! Operations Studio. All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>
